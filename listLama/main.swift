@@ -7,7 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
 print("✨✨✨✨✨✨✨✨✨Hello our Bride👰🏻‍♀️✨✨✨✨✨✨✨✨✨")
 print("where would you like to start ?")
 print("1.Beauty care💅🏻")
