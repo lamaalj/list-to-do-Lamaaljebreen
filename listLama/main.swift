@@ -6,6 +6,8 @@
 //
 
 import Foundation
+var userInput = ""
+repeat{
 
 print("✨✨✨✨✨✨✨✨✨Hello our Bride👰🏻‍♀️✨✨✨✨✨✨✨✨✨")
 print("where would you like to start ?")
@@ -24,7 +26,7 @@ let care = """
 """
 
 // 2 case arry+ loops
-var mustDo = ["1.Call vendors to comfirm date and time", "2.Final dress fiting", "3.Comfirm honeymoon reservations"]
+let mustDo = ["1.Call vendors to comfirm date and time", "2.Final dress fiting", "3.Comfirm honeymoon reservations"]
 //3 struct + fun
 struct Bride {
     
@@ -34,7 +36,7 @@ func averagePrice(){
 }
 }
 
-var Name = Bride()
+let Name = Bride()
 
 //4
 var taskList = [String]()
@@ -49,6 +51,7 @@ func addTask(){
 }
 
 if let userChoice = readLine(){
+       userInput = userChoice
     switch userChoice {
     case "1":
         print(care)
@@ -67,3 +70,5 @@ if let userChoice = readLine(){
     }
 }
 
+}
+while userInput != "4"
